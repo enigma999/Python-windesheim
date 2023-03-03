@@ -11,5 +11,5 @@ print(str(getal1) + " * " + str(getal2) + " = " + str(resultaatVermenigvuldigen)
 if getal2 != 0:
     resultaatDelendoor = getal1 / getal2
     print(str(getal1) + " / " + str(getal2) + " = " + str(resultaatDelendoor))
-if getal2 != 0:
+if getal2 == 0:
     print(str(getal1) + " / " + str(getal2) + " = ? (delen door 0 kan niet)")
